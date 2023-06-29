@@ -13,9 +13,12 @@ public class TestDAO {
 			
 			MetroDAO dao = new MetroDAO() ;
 			
-			System.out.println(dao.readFermate()) ;
-			System.out.println(dao.readLinee()) ;
+//			System.out.println(dao.readFermate()) ;
+//			System.out.println(dao.readLinee()) ;
 
+//			System.out.println(dao.trovaCollegate()) ;
+
+			
 		} catch (Exception e) {
 			throw new RuntimeException("Test FAILED", e);
 		}
